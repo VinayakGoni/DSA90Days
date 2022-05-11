@@ -1,0 +1,98 @@
+TCS
+
+1. What are the Functional interfaces you have used?
+2. How do you implement SSL in microservice?
+3. What is CI/CD ? 
+4. Which code coverage tools have you used?
+5. Difference between map() and flatmap()?
+6. What is the condition to implement a lambda expression?
+7. What is a functional interface?
+8. What is singleton class? How to create it?
+9. How do you make a singleton object threadsafe?
+10. How did you implement security in Springboot?
+11. what are the advantages of Springboot?
+12. What are the advantages of lambda expressions? and Functional interfaces?
+13. Difference between Arralist and Linkedlist?
+14. What is the default scope of a bean in Springboot?
+15. What is the lifecycle of a maven project? (Validate, Compile, Test, Package, Integration test, Verify, Install and Deploy)
+16. 
+
+
+SpringML TR2 -- Gourab
+
+------
+
+Given an array of both positive and negative integers ‘arr1[]’ which are sorted. The task is to sort the square of the numbers of the Array into arr2[]. 
+Make sure the solution works with linear time complexity
+
+Examples: 
+
+Input  : arr1[] = [-6, -5 , -3, 1 ,2 ,4]
+Output : arr2[] = [1, 4, 9, 16, 25, 36]
+
+
+------
+Input  : arr1[] = [-6, -5 , -3, 1 ,2 ,4];
+Output : arr2[] = [1, 4, 9, 16, 25, 36];
+int len = arr1[].length;
+
+int a = 0;
+int b = len-1;
+
+
+for(int i=1;i<=arr1.length;i++){
+
+if(arr1[a] > arr1[b]){
+arr2[b]=arr1[a]*arr1[a];
+a++;
+} else {
+arr2[b-a] = arr1[b]*arr1[b];
+b--;
+}
+}
+
+1st itr
+a=-6;b=4;i=1;n=6; arr2[5]=36;
+a=
+
+-------
+Chat service : Web socket
+
+https://app.diagrams.net/
+------
+
+
+// Online Java Compiler
+// Use this editor to write, compile and run your Java code online
+import java.util.*;
+class HelloWorld {
+    public static void main(String[] args) {
+        //System.out.println("Hello, World!"); 
+        int [] arr1 = {-6, -5 , -3, 1 ,2 ,4};
+        int [] arr2 = new int [arr1.length];
+        int len = arr1.length;
+
+    int a = 0;
+    int b = len-1;
+
+
+for(int i=0;i<arr1.length;i++){
+
+if(Math.abs(arr1[a]) > Math.abs(arr1[b])){
+    System.out.println("Abs values" + Math.abs(arr1[a]) + " and : " + Math.abs(arr1[b]));
+arr2[b]=arr1[a]*arr1[a];
+a++;
+} else {
+arr2[b-a] = arr1[b]*arr1[b];
+b--;
+}
+}
+    System.out.println(Arrays.toString(arr2)); 
+    System.out.println(arr2); 
+        
+        
+        
+        
+        
+    }
+}
