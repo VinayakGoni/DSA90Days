@@ -157,3 +157,114 @@ public static void main (String[] args) {
 
 ============================================================
 
+=====================================================================
+Net crackers:
+
+public boolean equals(Object obj){
+
+
+if(obj==instanceOf(Object){
+
+
+}
+
+
+
+}
+
+
+student.clone();
+
+
+class Employee {
+	String name;
+	
+	// Getter and setter
+}
+
+
+// how to clone an object
+Employee e1 = new Employee();
+
+Employee e2 = e1.clone();
+
+// clone method signature
+public Object clone (){
+
+return this.object;
+
+}
+
+
+CloneNotSupported 
+
+interface Clonable
+
+
+// Abhay, Saket, vivek
+// Abhay, Saket, Vinayak, vivek
+
+ArrayList<String> sortedList = new 
+
+LinkedList<String> list = new LinkedList<String>(sortedList);
+
+// Binary search
+// Exceptions
+
+-- Lambda
+
+ArrayList<String> sortedList = new ArrayList<String>();
+
+ArrayList<String> original = new ArrayList<>();
+
+ArrayList<String> dup = new ArrayList<>();
+
+HashSet<> hs = new HashSet<String>();
+
+original.Stream(str -> Collections.));
+
+stream map and flat map in java
+
+
+
+Employee {
+	id
+	name
+	managerId
+	Salary
+	deprtId
+}
+
+Deparment {
+	deprtId
+	departName
+}
+
+
+//query to fetch dept name and # of employees under the department
+
+select d.departName, count(e.id) from Deparment d, Employee e where d.deprtId=e.deprtId;
+
+//query to fetch department name and employee having max salary from that departmenr
+
+select d.departName, e.salary from Deparment d, Employee e order by e.salary desc;
+
+
+=====================================================================
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
