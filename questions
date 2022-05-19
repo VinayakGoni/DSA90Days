@@ -15,12 +15,16 @@ TCS
 13. Difference between Arralist and Linkedlist?
 14. What is the default scope of a bean in Springboot?
 15. What is the lifecycle of a maven project? (Validate, Compile, Test, Package, Integration test, Verify, Install and Deploy)
-16. 
 
+TR2:
+1. collection vs collections?
+2. How thread works? what happens if you run thread.run? and thread.start?
+3. 
+
+
+------------------------------------------------------------------------------------------
 
 SpringML TR2 -- Gourab
-
-------
 
 Given an array of both positive and negative integers ‘arr1[]’ which are sorted. The task is to sort the square of the numbers of the Array into arr2[]. 
 Make sure the solution works with linear time complexity
@@ -90,9 +94,66 @@ b--;
     System.out.println(Arrays.toString(arr2)); 
     System.out.println(arr2); 
         
-        
-        
-        
-        
     }
 }
+
+------------------------------------------------------------------------------------------
+
+============================================================
+Publisis sapient
+
+tool: https://codeinterview.io/
+
+1. Difference between wait and sleep?
+2. What is rehashing?
+3. How hashmap works internally?
+4. What is the internal data structure of hashmap?
+5. What are the data strucures you have used? queue,topic,stach,heap etc
+6. When to use arraylist and when to use linkedlist?
+7. What is immutable class? create one using a field List<Student>
+8. Can HashMap contain null key?
+9. What is executor framework?
+10. What are solid design patterns?
+11. What are the considerations to create a new class and to modify an existing class?
+12. 
+
+
+implemented immutable object:
+public final class ImmutableObj {
+  
+  private final List<Student> studentList;
+  private final Date dob;
+  
+  public ImmutableObj(List<Student> list, Date dob){
+    List<Student> deepCopy = new ArrayList<Student>();
+    deepcopy = deepCopy.addAll(list);
+    
+    this.studentList=deepCopy;
+    this.dob=dob;
+  }
+  
+  public List<Student> getStudentList(){
+    return studentList;
+  }
+  
+  public Date getDob(){
+    return dob;
+  }
+  
+}
+
+String manipulation:
+
+public static void main (String[] args) {
+    String s = "abc";
+    s = "efg";
+    System.out.println(s);
+    
+    final StringBuffer sb = new StringBuffer("abc");
+    sb.append("efg");
+    System.out.println(sb);
+	}
+
+
+============================================================
+
