@@ -252,6 +252,18 @@ select d.departName, e.salary from Deparment d, Employee e order by e.salary des
 
 =====================================================================
 
+resisilence 4j circuit breaker
+microservice to microservice communication
+API gateway and Authentication 
+2 phase commit
+SAGA pattern (eliminates the disadvantages of 2 phase commot)
+commit phase and lock phase
+SOLID design pattern
+event based SAGS pattern
+
+https://microservices.io/patterns/data/saga.html    
+
+https://microservices.io/
 
 
 
