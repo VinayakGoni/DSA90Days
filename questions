@@ -252,7 +252,7 @@ select d.departName, e.salary from Deparment d, Employee e order by e.salary des
 
 =====================================================================
 
-resisilence 4j circuit breaker
+resisilence 4j circuit breaker (to mitigate the failures)
 microservice to microservice communication
 API gateway and Authentication 
 2 phase commit
@@ -264,6 +264,7 @@ event based SAGS pattern
 https://microservices.io/patterns/data/saga.html    
 
 https://microservices.io/
+
 
 
 
