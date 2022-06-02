@@ -266,7 +266,121 @@ https://microservices.io/patterns/data/saga.html
 https://microservices.io/
 
 
+==============================================================
+Amadeus (Naveen)
 
+1. WHat is dynamic method dispatch in java?
+2. How to use a specific implementation of a class at run time?
+3. Which annotation to use to inject a specific bean at run time (@Qualifier)
+4. WAP to find the missing number.
+5. find the midle element of a linkedlist?
+6. How do you traverse a linkedlist?
+7. 
+
+
+
+==============================================================
+
+Synecron -- TR2
+
+1. Features/modules of spring MVC
+2. How to habdle exception in Spring MVC architectire?
+3. Have you used Spring MVC validations?
+4. Spring annotations you have used?
+5. Java 8 features?
+6. What is method referencing in java?
+7. How and why did you use stream API ?
+8. distinguish between @Qualifier and @Primary
+9. distinguish between composition and aggregation 
+10. What is serializable interface? how do you use it?
+11. What are all the design patterns have you used?
+12. What is executor framework?
+13. How do you break singleton design pattern?
+14. What is front controller?
+15. which one is good join vs sub query?
+16. What are intermediate and terminal operations in java?
+17. What are the features of Spring Boot?
+
+==============================================================
+
+Betsol
+
+1. Difference between Unique key vs primary key
+2. How do you get the values from a map using java 8 feature?
+3. How to use stream to get the values of a Map?
+4. What is Bifunction interface?
+5. What is function interface?
+6. what is serialversionuid in java ?
+7. Is serialversionuid mandatory field?
+8. What is is a and has a relationship in java?
+9. What is Fly weight design pattern?
+10. What is Chain of Responsibilty (COR) design pattern?
+11. How do you break the singleton design pattern?
+12. What is @enableautoconfiguration ?
+13. What is @transactional annotation in spring boot?
+14. What if you get NoSuchBeanDefinitionFound exception? and how do you resolve it?
+15. WHat is unique constraint in hibernate?
+16. get 
+    a. you have to return the all the student objects
+    b. you have return the student names with sorted order (ascending order)
+   Using java 8 in below code? 
+
+import java.util.*;
+import java.lang.*;
+import java.io.*;
+
+class Eteki
+{ 
+	public static void main(String[]args)throws java.lang.Exception 
+	{
+			// your code goes here
+      
+      Map<String,List<Student>> studentMap  = new HashMap<>();
+
+	studentMap.put("IT",Arrays.asList(new Student(1, "A"),new Student(2,"B"),new Student(3,"C")));
+	studentMap.put("Mechanical",Arrays.asList(new Student(1, "X"),new Student(2,"Y"),new Student(3,"Z")));
+	studentMap.put("ECS",Arrays.asList(new Student(1, "AB"),new Student(2,"CD"),new Student(3,"EF")));
+      
+                   
+                   //1. you have to return the all the student objects
+                   //2. you have return the student names with sorted order (ascending order)
+     studentMap.forEach( (k,v) -> {
+    System.out.println("Key is : " + k + " Value is : " +v);
+       
+    });
+      
+      List<Student> names = studentMap.entrySet().stream().filter(id -> id.getKey.equals("IT").map(Map.Entry::getValue);
+      
+      }
+}
+         
+  class Student {
+         
+                   private int id;
+                   private String name;
+    public Student(int id, String name){
+     this.id=id;
+      this.name=name;
+    }
+    
+                
+                   
+         }
+         
+         
+17. What is predicate chaining?
+18. What is ComponentScan(basePackage = {} ) ?
+19. What is injectMocks? mock? spy? in junit?
+20. How to get unique elements from the below dataset?
+1 A 20
+2 B 25
+1 A 20
+                                                                  
+select distinct id,name from employee emp;
+
+21. 
+
+==============================================================
 
 
 
