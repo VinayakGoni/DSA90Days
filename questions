@@ -382,6 +382,171 @@ select distinct id,name from employee emp;
 
 ==============================================================
 
+Betsol TR1
+
+1. What is JWT ? how did you use it?
+2. What is automatic dirty checking in hibernate ?
+3. Is hibernate session thread safe?
+4. What are the different modules of Hibernate?
+5. Explain hibernate architecture?
+6. What is the need of hibernate ?
+7. What are the limitation of triggers in databse?
+8. Advantages and Disadvantages of Indexes in SQL Server?
+9. What is mutating table error?
+10. difference between syntax error and runtime in sql?
+11. orm vs jdbc ? 
+12. What is transaction management in hibernate? does it support Programmatic vs. Declarative ?
+13. What is constructor injection in spring?
+14. What is inheritance in java?
+15. What is optional class in java 8?
+16. what is the difference between iterator() and split iterator()?
+17. what are the benefits of Stream API in java 8?
+18. What are lambda expressions?
+19. Difference Between Streams and Collections in Java?
+20. 
+
+==============================================================
+
+1. Using stream, sort the cities in different lists alphabetically
+
+Texas
+California
+Virginia
+Illinois
+Connecticut
+Delaware
+Florida
+Georgia
+Arizona
+Hawaii
+Idaho
+Tennessee
+Arkansas
+Utah
+Vermont
+Colorado
+
+
+List 1
+Arizona
+Arkansas
+
+List 2
+California
+Colorado
+Connecticut
+
+List 3
+Delaware
+
+List 4
+Florida...
+
+
+
+[3:20 PM] Lalit Chavan
+    public class Overloaded {​
+public static void foo(Integer i) {​
+System.out.println("foo(Integer)");
+}​
+
+ public static void foo(short i) {​
+System.out.println("foo(short)");
+}​
+ public static void foo(long i) {​
+System.out.println("foo(long)");
+}​
+ public static void foo(int... i) {​
+System.out.println("foo(int ...)");
+}​
+ public static void main(String[] args) {​
+foo(10);
+}​
+}​
+
+
+
+
+2. Which method will be executed?
+
+[3:20 PM] Lalit Chavan
+    public class Overloaded {​
+public static void foo(Integer i) {​
+System.out.println("foo(Integer)");
+}​
+
+ public static void foo(short i) {​
+System.out.println("foo(short)");
+}​
+ public static void foo(long i) {​
+System.out.println("foo(long)");
+}​
+ public static void foo(int... i) {​
+System.out.println("foo(int ...)");
+}​
+ public static void main(String[] args) {​
+foo(10);
+}​
+}​
+
+
+
+
+3. Predict the output of the code
+
+
+[3:23 PM] Lalit Chavan
+    class Base {​
+public void test() {​
+}​
+}​
+
+class Base1 extends Base {​
+public void test() {​
+System.out.println("Base1");
+}​
+}​
+class Base2 extends Base {​
+public void test() {​
+System.out.println("Base2");
+}​
+}​
+
+
+
+
+[3:24 PM] Lalit Chavan
+    class Test {​
+public static void main(String[] args) {​
+Base obj = new Base1();
+((Base2) obj).test();
+}​
+}​
+
+
+
+Crimsonlogic TR2
+Existing application -
+We have a Shopping Cart which includes below feature
+1. Search and selecting the item
+2. Calculate the amount to be collected and checkout page
+
+New requirement to be implemented
+1. To integrate with payment gateway
+2. When pay button is clikced in checkout page , control will be redirected to payment gateway for amount collection
+3. When amount is collected successfully by payment gateway , control will be redirected to application back then display the successfull message.
+
+Task
+1. High level table design and key information to be captured in system before redirecting to payment gateway
+2. What is the possible failure scenario during payment and how to handle them
+
+==============================================================
+
+
+
+
+
+
 
 
 
