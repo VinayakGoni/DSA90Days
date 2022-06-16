@@ -542,7 +542,57 @@ Task
 
 ==============================================================
 
+Tarento
 
+1. How do you remove duplicate records from the table?
+2. How do you create index for a table ? which is the best index creation logic?
+3. How do you handle huge data set in hibernate or any logic? with less heap area?
+4. What are the different scopes of a bean inspring?
+5. What is the default scope of a bean in spring and how do you change it?
+6. WAP to create a sorted list from 2 sorted arrays. ex: arr1 = [1,3,6] arr2=[2,8,9]
+7. How singleton behaves in serialization ?
+8. What are the SOLID design principles?
+9. When to use array list and when to use linkedlist?
+10. What is the time complexity of different operations in linkedlist?
+11. How a linkedlist is implemented internally?
+12. How to make a singleton object threadsafe?
+13. How is memory managed in JVM?
+14. where the static vatiables are stored? where the method variables are stored?
+15. How JVM works?
+16. What is JIT? how it helps?
+17. How do you find the memory leak in an application?
+18. 
+
+============================================================
+
+
+GoDigit Round 2
+1. What is the N+1 problem in hirenate? How do you fix it?
+2. What is unidirectional and bidirectional mapping in hibernate?
+3. How to create a war file from Springboot application?
+4. How to change the default server in Springboot application?
+5. How do you implement pagination in Springboot?
+6. What is the default database in Springboot? what are the advantages of it?
+7. How to create L2 cache in hibernate ?
+8. What is optional class in java?
+9. Write lambda to get emploee names having length greater than 7 which are stored in a ArrayList?
+10. Why default and static methods are introduced in java 8?
+11. Can we override a static method in Java?
+12. Can we overload a static method in Java?
+13. What happens if we override a static method in child class as a non static method?
+14. What is SQL injection? how to prevent it?
+15. What happens if you try to set values for a final object? which wxception is thrown?
+16. String s1="ABC"
+String s2 = s1+""+"DEF";
+how many objects are created here?
+17. Explain about the String class?
+18. How to create an immutable object in java?
+19. What is the difference between shallow copy and deep copy?
+20. What is polymorphism in java?
+21. How heap area works in multi threaded environment?
+
+
+============================================================
 
 
 
